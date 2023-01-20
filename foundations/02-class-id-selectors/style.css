@@ -1,0 +1,19 @@
+.class {
+    background-color: #ffC0CB;
+    font-family: verdana, DejaVu sans, sans-serif;
+}
+.class-large {
+    font-size: 24px;
+    background-color: #ffC0CB;
+    font-family: Verdana, DejaVu sans, sans-serif;
+}
+#two{
+    font-size: 36px;
+    color: #0000FF;
+}
+#four{
+    color: #000;
+    font-weight: 700;
+    background-color: #85FF00;
+    font-size: 24px;
+}
