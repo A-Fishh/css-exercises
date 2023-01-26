@@ -25,3 +25,65 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+/* Started here */ 
+
+
+/* removed bullets from lists. removed underlines from links */
+ul {
+  list-style-type: none;
+  text-decoration: none;
+  display: flex;
+}
+
+.left-links {
+  justify-content: flex-start;
+}
+
+.right-links {
+  justify-content: flex-end;
+}
+
+/*makes links inherit their text color from parents. Removed the underlines from them*/
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* moved the logo, search, and buttons to the center of the page. Also stacked them on top of each other */
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: auto;
+  min-height: 80%;
+  flex: 1;
+}
+
+.header {
+  display: flex;
+  /*moved the left and right blocks to opposite sides of the page*/
+  justify-content: space-between;
+  padding: 10px;
+}
+
+/* puts a margin or space around all of the list items */
+li {
+  margin: 10px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #eeeeee;
+  align-items: flex-end;
+  padding: 10px;
+}
+
+html, body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
